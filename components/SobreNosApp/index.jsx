@@ -34,12 +34,12 @@ const styles = StyleSheet.create({
     // Garante que o conteúdo não fique sob a barra de status ou notch
     safeArea: {
         flex: 1,
-        backgroundColor: '#3b3b3b',
+        backgroundColor: '#FFF',
     },
     // Container principal que define o fundo e alinha os itens
     container: {
         flex: 1,
-        backgroundColor: '#3b3b3b',
+        backgroundColor: '#FFF',
         alignItems: 'center',
         justifyContent: 'space-between',
         paddingTop: 'auto'
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     cardPrincipal: {
         width: '80%',
         height: 'auto',
-        backgroundColor: '#4f4f4f', // Um cinza um pouco mais claro para criar contraste
+        backgroundColor: '#c5c8c2ff', // Um cinza um pouco mais claro para criar contraste
         borderRadius: 15, // Bordas arredondadas para um visual moderno
         padding: 20,
         justifyContent: 'center', // Centraliza o texto verticalmente
@@ -67,12 +67,13 @@ const styles = StyleSheet.create({
         paddingHorizontal: 15, // Espaçamento interno horizontal
         // A borda agora é apenas na parte superior, para separar do conteúdo
         borderTopWidth: 1,
-        borderColor: '#606060', // Mantém a cor da borda discreta
+        borderColor: '#c5c8c2ff', // Mantém a cor da borda discreta
+        backgroundColor: '#c5c8c2ff', // Fundo do rodapé para destacar o texto
         alignItems: 'center', // Centraliza o texto dentro do rodapé
     },
     // Estilo para o texto de título/primário dentro dos cards
     textoPrincipal: {
-        color: '#E0E0E0', // Cor clara para contrastar com o fundo escuro do card
+        color: '#000', // Cor clara para contrastar com o fundo escuro do card
         fontSize: 18, // Tamanho legível
         fontWeight: 'bold',
         marginBottom: 8, // Espaço abaixo do título
@@ -80,20 +81,20 @@ const styles = StyleSheet.create({
     },
     // Estilo para o texto de corpo, com o mesmo tamanho em ambos
     textoCorpo: {
-        color: '#CCCCCC', // Um pouco mais suave que o título
+        color: '#000', // Um pouco mais suave que o título
         fontSize: 14, // "Pequeno mas visível"
         textAlign: 'center',
         lineHeight: 20, // Melhora a legibilidade
     },
     textoPrincipalDiscreto: {
-        color: '#BDBDBD',
+        color: '#000',
         fontSize: 18,
         fontWeight: 'bold',
         marginBottom: 8,
         textAlign: 'center',
     },
     textoCorpoDiscreto: {
-        color: '#9E9E9E',
+        color: '#000',
         fontSize: 14,
         textAlign: 'center',
         lineHeight: 20,

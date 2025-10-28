@@ -1,11 +1,7 @@
-import { Text, View } from "react-native";
+import InstrucaoCapturaTela from '../../components/InstrucaoCapturaTela';
 
 export default function Tasks() {
-    return (
-        <View>
-            <Text>
-                Fluxo Principal
-            </Text>
-        </View>
-    );
+  return (
+    <InstrucaoCapturaTela />
+  );
 }

@@ -1,13 +1,14 @@
 import { Drawer } from 'expo-router/drawer';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import 'react-native-get-random-values';
 
 export default function Layout() {
     return (
         <GestureHandlerRootView style={{ flex: 1 }}>
             <Drawer screenOptions={{
-                drawerStyle: { backgroundColor: "#3b3b3b" },
-                drawerLabelStyle: { color: "#fff" },
-                headerStyle: { backgroundColor: "#3b3b3b" },
+                drawerStyle: { backgroundColor: "#b6d3a5" },
+                drawerLabelStyle: { color: "#000" },
+                headerStyle: { backgroundColor: "#b6d3a5" },
                 headerTintColor: "#fff"
             }}>
                 <Drawer.Screen 
@@ -32,6 +33,13 @@ export default function Layout() {
                         drawerLabel: 'Captura',
                         headerTitle: '',
                         title: 'Fluxo Principal'
+                    }} 
+                />
+                <Drawer.Screen 
+                    name='FluxoPrincipal/camera' 
+                    options={{
+                        headerTitle: '',
+                        drawerItemStyle: { display: 'none' } 
                     }} 
                 />
                 <Drawer.Screen 
