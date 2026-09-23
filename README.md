@@ -35,7 +35,6 @@ O fluxo de captura funciona de ponta a ponta: o morador tira a foto do contêine
 
 ## Segredos e configuração
 
-- As credenciais de acesso ao Backblaze B2 (chave de acesso, endpoint, nome do bucket) são lidas de variáveis de ambiente (`EXPO_PUBLIC_B2_*`) em tempo de build/execução — devem ser fornecidas via um arquivo `.env` local e não devem ser versionadas em um repositório público.
 - O app solicita permissões de câmera, localização (fina e aproximada) e galeria apenas quando necessário, seguindo o modelo de permissões do Android/Expo.
 
 ## Como executar
