@@ -71,4 +71,4 @@ No terminal do Expo, escolha abrir em um emulador Android/iOS, no navegador, ou 
 
 ## Autor
 
-Gustavo de Almeida Pacheco, Bruno Capovilla, Matheus Ferreira, João Brito e Rafael Pulzi — desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) sobre Gestão de Resíduos Sólidos Urbanos.
+Gustavo de Almeida Pacheco — desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) sobre Gestão de Resíduos Sólidos Urbanos.
